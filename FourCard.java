@@ -38,7 +38,7 @@ java.util.ArrayList<ImageIcon> list = new java.util.ArrayList<ImageIcon>();
     
   /** Main method */
   public static void main(String[] args) {
-    JFrame frame = new ControlCircle();
+    JFrame frame = new FourCard();
     frame.setTitle("PickFourCards");
     frame.setLocationRelativeTo(null); // Center the frame
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
